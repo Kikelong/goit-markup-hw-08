@@ -1,0 +1,74 @@
+
+.section-clientes{
+    padding: 59px;
+}
+
+.container-clientes{
+        width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.titulo-clientes{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+    line-height: 110%;
+    margin-bottom: 44px;
+    padding: 0;
+}
+
+.ul-fichas-clientes{
+    padding: 0;
+    display: flex;
+    justify-content:  center;
+
+    &:hover{
+        fill:var(--brand-color);
+    }
+}
+
+.subcontainer-svg-clientes{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 81px;
+    margin-right: 30px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+
+    &:hover{
+        border: 1px solid var(--brand-color);
+    border-radius: 4px;
+    cursor: pointer;
+    }
+}
+
+.svg-fichas-clientes{
+    fill:#AFB1B8;
+    padding: 15px;
+    width: 170px;
+    height: 81px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover{
+        fill:var(--brand-color);    
+    }
+}
+
+.ul-fichas-clientes > .svg-fichas-clientes:last-child{
+    margin-right: 0;
+}
+
+.link-fichas-clientes:focus .svg-fichas-clientes{
+    fill: var(--brand-color);
+}

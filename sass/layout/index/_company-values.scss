@@ -1,0 +1,59 @@
+
+.section-valores-empresariales{
+    padding: 95px 0;
+}
+
+.container-valores-empresariales{
+    width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ul-valores-empresariales{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    /* justify-content: center; */
+    margin: 0;
+    padding: 0;
+}
+
+.li-valores-empresariales{
+    padding: 0;
+    margin: 0;
+    flex-basis: calc((100% - 90px)/4);
+}
+
+.container-svg-valores-empresariales{
+        margin-bottom: 30px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+}
+
+.svg-valores-empresariales{
+    margin: 25px 102.34px;
+}
+
+.titulo-valores-empresariales{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+
+.caracteristicas-valores-empresariales{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: var(--secondbrand-color);
+    width: 270px;
+    line-height: 170%;
+    margin-top: 10px;
+}

@@ -1,0 +1,128 @@
+
+
+.section-worker{
+    background: #F5F4FA; 
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.container-worker{
+    width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.titulo-worker{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+    line-height: 110%;
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+.ul-images-worker{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+    margin: 0;
+    padding: 0;
+}
+
+.li-worker{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    padding: 0;
+    margin: 0;
+    flex-basis: calc((100% - 69px)/4);
+}
+
+.container-texto-worker{
+    padding: 30px 0px;
+    margin: 0;
+    text-align: center;
+}
+
+.nameworkerh3{
+    font-family: 'Roboto';
+    font-style: normal;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+    line-height: 110%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.description-worker{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: var(--secondbrand-color);
+    line-height: 110%;
+    margin: 0;
+    padding: 0;
+}
+
+.images-worker{
+    padding: 0;
+    margin: 0;
+}
+
+
+.ul-icons-redes{
+        margin-bottom: 30px;
+    padding: 0;
+    display: flex;
+    justify-content:  center;
+}
+
+.li-icons-redes{
+    border-radius: 40%;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    fill:#AFB1B8;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, &:focus{
+        fill: white;
+        background-color: var(--brand-color);
+        border-radius: 50%;
+        width: 44px;
+        height: 44px;
+        cursor: pointer;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+}
+
+.ul-icons-redes > .li-icons-redes:last-child{
+    margin-right: 0px;
+}
+
+.link-icons-redes:focus .svg-icons-redes{
+    fill:#FFFFFF;
+}
+
+.svg-icons-redes{
+    padding: 12px;
+    fill:#AFB1B8;
+
+    &:hover{
+        fill:#FFFFFF;
+    }
+}

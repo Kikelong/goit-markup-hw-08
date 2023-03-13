@@ -1,0 +1,521 @@
+<html lang="en"><script src="chrome-extension://lgmpcpglpngdoalbgeoldeajfclnhafa/inpage.js"></script>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>goit-markup-hw-07</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" integrity="" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/main.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&amp;family=Roboto:wght@100;300;400;500;700&amp;display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+        <header>
+            <div class="container-header-index">
+                <a class="logo-header" href="#">WebStudio</a>
+                <nav class="nav-header">
+                    <ul class="ul-header">
+                        <li class="li-header">
+                            <a class="estudio-header line" href="./index.html">Estudio</a>
+                        </li>
+                        <li class="li-header">
+                            <a class="portafolio-header" href="./portafolio.html">Portafolio</a>
+                        </li>
+                        <li class="li-header">
+                            <a class="contactos-header" href="./contactos.html">Contactos</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="ul-header-correo-numero">
+                    <li class="li-header-correo-numero">
+                        <a class="correo-header" href="mailto:info@devstudio.com">
+                            <svg class="icon-header" width="16" height="12">
+                                <use href="./images/icons.svg#icon-email"></use>
+                            </svg>
+                            info@devstudio.com
+                        </a>
+                    </li>
+                    <li class="li-header-correo-numero">
+                        <a class="numero-header" href="tel:+52 55 5529 6000">
+                            <svg class="icon-header" width="10" height="16">
+                                <use href="./images/icons.svg#icon-phone"></use>
+                            </svg>
+                            +52 55 5529 6000
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <main>
+            <section class="section-poster-index">
+                <div class="container-poster-index">
+                    <h1 class="titulo-poster-index-h1">SOLUCIONES EFICACES PARA<br>SU NEGOCIO</h1>
+                    <button class="boton" type="button" data-modal-open>Solicite nuestro servicio</button>
+                    <div class="backdrop is-hidden" data-modal>
+                        <div class="modal">
+                            <div class="container-boton-salida">
+                                <button class="button-modal-close" data-modal-close>
+                                    <svg width="11" height="11">
+                                        <use href="./images/icons.svg#cerrar"></use>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="container-formulario-ventana-modal">
+                                <form class="formulario-ventana-modal" action="">
+                                    <label for="">
+                                        <h2 class="titulo-formulario-ventana-modal">Deje sus datos, nos contactaremos con usted</h2>
+                                    </label>
+                                    <ul class="ul-formulario-ventana-modal">
+                                        <li class="li-formulario-ventana-modal">
+                                            <label for="name">
+                                                <h3 class="subtitutlo-formulario-ventana-modal">Nombre</h3>
+                                            </label>
+                                            <input class="entrada-formulario-ventana-modal" id="name" type="name" name="name" placeholder="">
+                                            <div class="container-icons-svg-formulario-ventana-modal">
+                                                <svg class="icons-svg-formulario-ventana-modal"width="13" height="13">
+                                                    <use href="./images/icons.svg#name-modal"></use>
+                                                </svg>
+                                            </div>
+                                        </li>
+                                        <li class="li-formulario-ventana-modal">
+                                            <label for="phone">
+                                                <h3 class="subtitutlo-formulario-ventana-modal">Teléfono</h3>
+                                            </label>
+                                            <input class="entrada-formulario-ventana-modal" id="phone" type="phone" name="phone" placeholder="">
+                                            <div class="container-icons-svg-formulario-ventana-modal">
+                                                <svg class="icons-svg-formulario-ventana-modal" width="13" height="13">
+                                                    <use href="./images/icons.svg#phone-modal"></use>
+                                                </svg>
+                                            </div>
+                                        </li>
+                                        <li class="li-formulario-ventana-modal">
+                                            <label for="mail">
+                                                <h3 class="subtitutlo-formulario-ventana-modal">E-mail</h3>
+                                            </label>
+                                            <input class="entrada-formulario-ventana-modal" id="mail" type="mail" name="mail" placeholder="">
+                                            <div class="container-icons-svg-formulario-ventana-modal">
+                                                <svg class="icons-svg-formulario-ventana-modal" width="15" height="12">
+                                                    <use href="./images/icons.svg#mail-modal"></use>
+                                                </svg>
+                                            </div>
+                                        </li>
+                                        <li class="li-formulario-ventana-modal">
+                                            <label for="">
+                                                <h3 class="subtitutlo-formulario-ventana-modal">Comentarios</h3>
+                                            </label>
+                                            <textarea id="entrada-formulario-ventana-modal-comentarios" name="comentarios" placeholder="Introduzca el texto"></textarea>
+                                        </li>
+                                    </ul>
+                                    <label class="label-checkbox" for="terms">
+                                        <input class="terminos-condiciones-checkbox" type="checkbox" id="terms" name="checkbox_terminos_condiciones">
+                                        <p class="texto-checkbox">
+                                            Estoy de acuerdo con el boletín informativo y acepto los <br> Términos y Condiciones 
+                                        </p>
+                                    </label>
+                                    <button class="boton-enviar-formulario-ventana-modal" type="submit">Enviar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="section-valores-empresariales">
+                <div  class="container-valores-empresariales">
+                    <ul class="ul-valores-empresariales">
+                        <li class="li-valores-empresariales">
+                            <div class="container-svg-valores-empresariales">
+                                <svg class="svg-valores-empresariales" width="65" height="70">
+                                    <use href="./images/icons.svg#valor-detalles"></use>
+                                </svg>
+                            </div>
+                            <h2 class="titulo-valores-empresariales">ATENCIÓN A LOS DETALLES</h2>
+                            <p class="caracteristicas-valores-empresariales">
+                            Nos adentramos en todos los detalles y procesos de su negocio,
+                            para así desarrollar una solución a su medida.
+                            </p>
+                        </li>
+                        <li class="li-valores-empresariales">
+                            <div class="container-svg-valores-empresariales">
+                                <svg class="svg-valores-empresariales" width="65" height="70">
+                                    <use href="./images/icons.svg#valor-puntualidad"></use>
+                                </svg>
+                            </div>
+                            <h2 class="titulo-valores-empresariales">PUNTUALIDAD</h2>
+                            <p class="caracteristicas-valores-empresariales">
+                            Con nosotros, usted puede sentirse seguro y protegido. Un
+                            principio importante de la empresa: respetar su tiempo y respetar
+                            los plazos acordados.
+                            </p>
+                        </li>
+                        <li class="li-valores-empresariales">
+                            <div class="container-svg-valores-empresariales">
+                                <svg class="svg-valores-empresariales" width="65" height="70">
+                                    <use href="./images/icons.svg#valor-planificacion"></use>
+                                </svg>
+                            </div>
+                            <h2 class="titulo-valores-empresariales">PLANIFICACIÓN</h2>
+                            <p class="caracteristicas-valores-empresariales">
+                            Usted podrá observar y participar en cada fase del desarrollo y
+                            aplicación de soluciones.
+                            </p>
+                        </li>
+                        <li class="li-valores-empresariales">
+                            <div class="container-svg-valores-empresariales">
+                                <svg class="svg-valores-empresariales" width="65" height="70">
+                                    <use href="./images/icons.svg#valor-tec-moderna"></use>
+                                </svg>
+                            </div>
+                            <h2 class="titulo-valores-empresariales">TEGNOLOGÍA MODERNA</h2>
+                            <p class="caracteristicas-valores-empresariales">
+                            Usamos herramientas innovadoras para resolver las tareas
+                            asignadas. Es hora de simplificar los procesos laborales.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="section-work">
+                <div  class="container-work">
+                    <h2 class="titulo-work">A qué nos dedicamos</h2>
+                    <ul class="ul-images-work">
+                        <li class="li-images-work">
+                            <div class="container-tarjeta-work">
+                                <img class="images-work" src="./images/image-01.jpg" alt="desktop">
+                                <div class="container-text-work">
+                                    <p class="text-work">APLICACIONES DE ESCRITORIO</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="li-images-work">
+                            <div class="container-tarjeta-work">
+                                <img class="images-work" src="./images/image-02.jpg" alt="smart-phone">
+                                <div class="container-text-work">
+                                    <p class="text-work">APLICACIONES MÓVILES</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="li-images-work">
+                            <div class="container-tarjeta-work">
+                                <img class="images-work" src="./images/image-03.jpg" alt="desing">
+                                <div class="container-text-work">
+                                    <p class="text-work">SOLUCIONES DE DISEÑO</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="section-worker">
+                <div class="container-worker">
+                    <h2 class="titulo-worker">Nuestro Equipo</h2>
+                    <ul class="ul-images-worker">
+                        <li class="li-worker">
+                            <img class="images-worker" src="./images/imageteam-1.jpg" alt="una foto de andres cubo">
+                            <div class="container-texto-worker">
+                                <h3 class="nameworkerh3">Andrés Cubo</h3>
+                                <p class="description-worker">Diseñador de Productos</p>
+                            </div>
+                            <div class="subcontainer-icons-redes">
+                                <ul class="ul-icons-redes">
+                                    <li class="li-icons-redes">
+                                        <a class="link-icons-redes" href="https://www.instagram.com/" target="_blank">
+                                            <svg class="svg-icons-redes" width="44" height="44">
+                                                <use href="./images/icons.svg#red-instagram"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="li-icons-redes">
+                                        <a class="link-icons-redes" href="https://www.twitter.com/" target="_blank">
+                                            <svg class="svg-icons-redes" width="44" height="44">
+                                                <use href="./images/icons.svg#red-twitter"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="li-icons-redes">
+                                        <a class="link-icons-redes" href="https://www.facebook.com/" target="_blank">
+                                            <svg class="svg-icons-redes" width="44" height="44">
+                                                <use href="./images/icons.svg#red-facebook"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="li-icons-redes">
+                                        <a class="link-icons-redes" href="https://www.linkedin.com/" target="_blank">
+                                            <svg class="svg-icons-redes" width="44" height="44">
+                                                <use href="./images/icons.svg#red-linkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="li-worker">
+                            <img class="images-worker" src="./images/imageteam-2.jpg" alt="una foto de carla palacios">
+                            <div class="container-texto-worker">
+                                <h3 class="nameworkerh3">Carla Palacios</h3>
+                                <p class="description-worker">Desarrolladora Frontend</p>
+                            </div>
+                            <div class="subcontainer-icons-redes">
+                                <ul class="ul-icons-redes">
+                                    <li class="li-icons-redes">
+                                        <a class="link-icons-redes" href="https://www.instagram.com/" target="_blank">
+                                            <svg class="svg-icons-redes" width="44" height="44">
+                                                <use href="./images/icons.svg#red-instagram"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="li-icons-redes">
+                                        <a class="link-icons-redes" href="https://www.twitter.com/" target="_blank">
+                                            <svg class="svg-icons-redes" width="44" height="44">
+                                                <use href="./images/icons.svg#red-twitter"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="li-icons-redes">
+                                        <a class="link-icons-redes" href="https://www.facebook.com/" target="_blank">
+                                            <svg class="svg-icons-redes" width="44" height="44">
+                                                <use href="./images/icons.svg#red-facebook"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="li-icons-redes">
+                                        <a class="link-icons-redes" href="https://www.linkedin.com/" target="_blank">
+                                            <svg class="svg-icons-redes" width="44" height="44">
+                                                <use href="./images/icons.svg#red-linkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="li-worker">
+                            <img class="images-worker" src="./images/imageteam-3.jpg" alt="una foto de mario dorado">
+                            <div class="container-texto-worker">
+                                <h3 class="nameworkerh3">Mario Dorado</h3>
+                                <p class="description-worker">Marketing</p>
+                            </div>
+                            <div class="subcontainer-icons-redes">
+                                <ul class="ul-icons-redes">
+                                    <li class="li-icons-redes">
+                                        <a class="link-icons-redes" href="https://www.instagram.com/" target="_blank">
+                                            <svg class="svg-icons-redes" width="44" height="44">
+                                                <use href="./images/icons.svg#red-instagram"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="li-icons-redes">
+                                        <a class="link-icons-redes" href="https://www.twitter.com/" target="_blank">
+                                            <svg class="svg-icons-redes" width="44" height="44">
+                                                <use href="./images/icons.svg#red-twitter"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="li-icons-redes">
+                                        <a class="link-icons-redes" href="https://www.facebook.com/" target="_blank">
+                                            <svg class="svg-icons-redes" width="44" height="44">
+                                                <use href="./images/icons.svg#red-facebook"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="li-icons-redes">
+                                        <a class="link-icons-redes" href="https://www.linkedin.com/" target="_blank">
+                                            <svg class="svg-icons-redes" width="44" height="44">
+                                                <use href="./images/icons.svg#red-linkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="li-worker">
+                            <img class="images-worker" src="./images/imageteam-4.jpg" alt="una foto de pablo mijangos">
+                            <div class="container-texto-worker">
+                                <h3 class="nameworkerh3">Pablo Mijangos</h3>
+                                <p class="description-worker">Diseñador IU</p>
+                            </div>
+                            <div class="subcontainer-icons-redes">
+                                <ul class="ul-icons-redes">
+                                    <li class="li-icons-redes">
+                                        <a class="link-icons-redes" href="https://www.instagram.com/" target="_blank">
+                                            <svg class="svg-icons-redes" width="44" height="44">
+                                                <use href="./images/icons.svg#red-instagram"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="li-icons-redes">
+                                        <a class="link-icons-redes" href="https://www.twitter.com/" target="_blank">
+                                            <svg class="svg-icons-redes" width="44" height="44">
+                                                <use href="./images/icons.svg#red-twitter"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="li-icons-redes">
+                                        <a class="link-icons-redes" href="https://www.facebook.com/" target="_blank">
+                                            <svg class="svg-icons-redes" width="44" height="44">
+                                                <use href="./images/icons.svg#red-facebook"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="li-icons-redes">
+                                        <a class="link-icons-redes" href="https://www.linkedin.com/" target="_blank">
+                                            <svg class="svg-icons-redes" width="44" height="44">
+                                                <use href="./images/icons.svg#red-linkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="section-clientes">
+                <div class="container-clientes">
+                    <h2 class="titulo-clientes">Clientes Regulares</h2>
+                    <ul class="ul-fichas-clientes">
+                        <li class="li-fichas-clientes">
+                            <a class="link-fichas-clientes" href="">
+                                <div class="subcontainer-svg-clientes">
+                                    <svg class="svg-fichas-clientes">
+                                        <use href="./images/icons.svg#cliente1"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="li-fichas-clientes">
+                            <a class="link-fichas-clientes" href="">
+                                <div class="subcontainer-svg-clientes">
+                                    <svg class="svg-fichas-clientes">
+                                        <use href="./images/icons.svg#cliente2"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="li-fichas-clientes">
+                            <a class="link-fichas-clientes" href="">
+                                <div class="subcontainer-svg-clientes">
+                                    <svg class="svg-fichas-clientes">
+                                        <use href="./images/icons.svg#cliente3"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="li-fichas-clientes">
+                            <a class="link-fichas-clientes" href="">
+                                <div class="subcontainer-svg-clientes">
+                                    <svg class="svg-fichas-clientes">
+                                        <use href="./images/icons.svg#cliente4"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="li-fichas-clientes">
+                            <a class="link-fichas-clientes" href="">
+                                <div class="subcontainer-svg-clientes">
+                                    <svg class="svg-fichas-clientes">
+                                        <use href="./images/icons.svg#cliente5"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="li-fichas-clientes">
+                            <a class="link-fichas-clientes" href="">
+                                <div class="subcontainer-svg-clientes">
+                                    <svg class="svg-fichas-clientes">
+                                        <use href="./images/icons.svg#cliente6"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <footer class="section-footer">
+            <div class="container-footer">
+                <ul>
+                    <a class="logo-footer" href="#">WebStudio</a>
+                    <address>
+                        <ul class="ul-address-footer">
+                            <li class="li-addres-footer">
+                                <a>Calz. Ticomán 500, Ciudad de <br> México, CDMX, México</a>
+                            </li>
+                            <li>
+                                <a class="number-email" href="mailto:info@example.com">info@example.com</a>
+                            </li>
+                            <li>
+                                <a class="number-email" href="tel:+52 55 5529 6000">+52 55 5529 6000
+                                </a>
+                            </li>
+                        </ul>
+                    </address>
+                </ul>
+                <ul class="ul-footer-redes">
+                    <h2 class="titulo-redes-footer">ENCUENTRANOS EN</h2>
+                    <ul id="ul-icons-redes-footer">
+                        <li class="li-icons-redes">
+                            <a class="link-icons-redes" href="https://www.instagram.com/" target="_blank">
+                                <svg class="svg-icons-redes" width="44" height="44">
+                                    <use href="./images/icons.svg#red-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="li-icons-redes">
+                            <a class="link-icons-redes" href="https://www.twitter.com/" target="_blank">
+                                <svg class="svg-icons-redes" width="44" height="44">
+                                    <use href="./images/icons.svg#red-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="li-icons-redes">
+                            <a class="link-icons-redes" href="https://www.facebook.com/" target="_blank">
+                                <svg class="svg-icons-redes" width="44" height="44">
+                                    <use href="./images/icons.svg#red-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="li-icons-redes">
+                            <a class="link-icons-redes" href="https://www.linkedin.com/" target="_blank">
+                                <svg class="svg-icons-redes" width="44" height="44">
+                                    <use href="./images/icons.svg#red-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </ul>
+                <ul class="ul-footer-formulario">
+                    <li class="li-footer-formulario">
+                        <form action="">
+                            <div>
+                                <label for="suscribe">
+                                    <h2 class="titulo-formulario-footer">Suscríbase al boletín informativo</h2>
+                                </label>
+                                <input class="formulario-footer" id="suscribe" type="correo" name="email" placeholder="Correo electrónico">
+                            </div>
+                        </form>
+                    </li>
+                    <li class="li-footer-formulario">
+                        <div>
+                            <button class="boton-enviar-footer" type="submit">
+                                Suscríbase
+                                <svg class="icon-enviar-footer" width="24" height="24">
+                                    <use href="./images/icons.svg#enviar"></use>
+                                </svg>
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <script src="./js/modal.js"></script>
+    </body>
+</html>
